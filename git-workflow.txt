@@ -1,0 +1,33 @@
+BASIC GIT WORKFLOW
+Hello Git
+Git is a software that allows you to keep track of changes made to a project over time. Git works by recording the changes you make to a project, storing those changes, then allowing you to reference them as needed.
+
+## git init
+Then we turn the directory into a Git project by doing:
+>git init
+
+The work init means initialize. This command sets up all the tools Git needs to begin tracking changes made to the project.
+
+## Git workflow
+A Git project can be thought of as having three parts:
+
+A Working Directory: where you'll be doing all the work: creating, editing, deleting and organizing files
+A Staging Area: where you'll list changes you make to the working directory
+A Repository: where Git permanently stores those changes as different versions of the project.
+
+The Git workflow consists of editing files in the working directory,
++additions
+-deletions
+modifications
+
+Adding files to the staging area - bring changes to staging area
+
+ and saving changes to a Git repository. In Git, we save changes with a commit, which we will learn next.
+
+## git status
+As we change the contents in the working directory, you check the status with git status.
+
+You'll see the untracked files. Untrack means that Git sees the file but has not started tracking changes yet.
+
+
+
